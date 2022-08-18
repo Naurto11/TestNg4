@@ -1,0 +1,6 @@
+TCL001||User id blank and password is blank||user id:  -----  Password: -------   ||Fail||
+TCL002||user id correct and password   blank||user id:  mp001 Password: -------   ||Fail||
+TCL003||user id is blank and password not blanked||user id:  -----  Password: as@123||Fail||
+TCL004||user id is wrong and correct password||user id:  as001  Password: pass@123||Fail||
+TCL005||user id is correct and password wrong||user id:  mp001   Password: as@123||Fail||
+TCL006||user id and password is correct||user id:  mp001  Password: pass@1`23||Pass||
